@@ -1,0 +1,116 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Container to center content */
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Header (Your Name and Title) */
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #f4f4f4;
+        }
+        header h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 0; /* Adjust spacing below title */
+        }
+
+        /* Profile Image Styling */
+        .profile-img {
+            width: 150px; /* Adjust size as needed */
+            height: 150px; /* Adjust size as needed */
+            border-radius: 50%; /* Makes the image round */
+            object-fit: cover; /* Ensures the image covers the area without distortion */
+            margin-bottom: 15px; /* Space below the image */
+            border: 3px solid #3498db; /* A nice border around the image */
+            box-shadow: 0 0 8px rgba(0,0,0,0.2); /* Subtle shadow */
+        }
+
+
+        /* General Section Styling */
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+        }
+        section h2 {
+            color: #3498db;
+            margin-bottom: 15px;
+        }
+
+        /* Skills Section */
+        #skills ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #skills li {
+            background-color: #3498db;
+            color: #fff;
+            padding: 5px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Projects Section */
+        .project {
+            margin-bottom: 20px;
+        }
+        .project h3 {
+            margin: 0;
+        }
+        .project-links a {
+            text-decoration: none;
+            color: #3498db;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        .project-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contact Section */
+        #contact ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #contact li {
+            margin-bottom: 10px;
+        }
+        #contact a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        #contact a:hover {
+            color: #3498db;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            font-size: 0.9em;
+            color: #999;
+        }
